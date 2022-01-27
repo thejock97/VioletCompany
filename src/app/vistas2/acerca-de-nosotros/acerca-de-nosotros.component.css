@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  /* ESTO PARA CAMBIAR EL COLOR DEL FONDO */
+#aboutUs {
+  background-color: #fde2ffe0 !important;
+}
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    /* width: 32.8%; */
+    width: 32.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #af7fb3  ;
+    color: rgb(233, 233, 233);
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 1550px) {
+    .column {
+      width: 100%;
+      display: block;
+      
+    }
+  }
+
+  #marginTop{
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+
+/* -------------------------------- */
+
+
+
+.borde{
+border: solid black 2px;
+
+}
+
+
+
+.titulo {
+  margin-bottom: 40px
+}
+
+label {
+  color: #333
+}
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px
+}
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px
+}
+
+.container{
+
+margin-bottom: 7%;
+
+}
+
+
+.centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row{
+
+/* Esto es porque la clase row tiene un pequeño margen por defecto y se lo prefiero quitar */
+  margin: 0%;
+ 
+}
+
+
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+#fondo{
+
+  /* background-color: #10c400 !important; */
+  background-color: white !important;
+
+}

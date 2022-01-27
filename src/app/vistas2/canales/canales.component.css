@@ -1,0 +1,194 @@
+
+
+/* ESTO PARA CAMBIAR EL COLOR DEL FONDO */
+#listado {
+  background-color: #fde2ffe0 !important;
+  margin-bottom: -2.5%;
+  padding-bottom: 5%;
+  padding-top: 2.5%;
+}
+
+#listado2 {
+  background-color: #dbabdfe0 !important;
+  margin-bottom: -2.5%;
+  padding-bottom: 5%;
+  padding-top: 2.5%;
+}
+
+
+
+head,
+body {
+    background-color: lightcyan
+}
+
+.card {
+    cursor: pointer
+}
+
+.hd {
+    font-size: 30px;
+    font-weight: 550
+}
+
+.card.hover,
+.card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+}
+
+.img {
+    margin-bottom: 35px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222)
+}
+
+.card-title {
+    font-weight: 600
+}
+
+button.focus,
+button:focus {
+    outline: 0;
+    box-shadow: none !important
+}
+
+.ft {
+    margin-top: 25px
+}
+
+.chk {
+    margin-bottom: 5px
+}
+
+.rck {
+    margin-top: 20px;
+    padding-bottom: 15px
+}
+
+.btn{
+
+  /* background-color: #10c400 !important; */
+  background-color: #007eec !important;
+  color: white;
+
+}
+
+.btn:hover{
+
+  background-color: #0064bb !important;
+  color: white;
+
+}
+
+.marginTop{
+  margin-top: 3%;
+  
+}
+
+.marginTop2{
+  margin-top: 3%;
+  
+}
+
+.marginBot{
+  margin-bottom: 5%;
+  
+}
+
+.colorBlanco {
+  background-color: white !important;
+}
+
+.margin{
+
+  margin: 0%;
+}
+
+.paddingBot{
+
+  padding-bottom: 3%;
+}
+
+
+
+
+/* Condiciones de contrato */
+
+.window-notice {
+  background: rgba(33, 41, 52, .85);
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  position: fixed;
+  z-index: 999;
+}
+
+.window-notice .content {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 600px;
+  min-width: 320px !important;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+
+.links{
+
+  color: #0064bb !important;
+
+}
+.links2{
+
+  color: #b3dbff !important;
+
+}
+
+.links2:hover{
+
+  color: #0072d6 !important;
+
+}
+
+.links:hover{
+  text-decoration: underline !important;
+  cursor: pointer;
+  
+}
+
+
+/* Condiciones de contrato */
+
+
+/* Cookies */
+
+  .bg-custom{
+  background-color:#6a456de0;
+  
+  
+  
+  }
+  .button-fixed{
+  bottom: 0;
+  position: fixed;
+  right: 1;
+  border-radius: 4px;
+  }
+  .fas{
+  cursor: pointer;
+  font-size: 24px;
+  }
+  p{
+  font-size: 14px;
+  }
+
+/* Cookies */

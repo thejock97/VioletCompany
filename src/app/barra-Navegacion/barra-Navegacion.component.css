@@ -1,0 +1,32 @@
+
+
+/* Esto es para cambiar el color del navbar */
+.navbar {
+    background-color: #6a456d !important;
+    
+  }
+
+
+
+  .transition {
+    transform: scale(1);    transition: 0.55s;
+}
+.transition:hover{
+  transform: scale(1.1); transition: 0.4s;
+}
+
+.btn{
+
+  /* background-color: #10c400 !important; */
+  background-color: #007eec !important;
+  color: white;
+
+}
+
+.btn:hover{
+
+  background-color: #0064bb !important;
+  color: white;
+
+}
+

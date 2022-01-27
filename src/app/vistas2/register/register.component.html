@@ -1,0 +1,167 @@
+<section class="h-100 h-custom gradient-custom-2">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12">
+          <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+            <div class="card-body p-0">
+              <div class="row g-0">
+                <div class="col-lg-6">
+                  <div class="p-5">
+                    <h3 class="fw-normal mb-5" style="color: #4835d4;">Datos confidenciales</h3>
+  
+                    
+  
+                    <div class="row">
+                      <div class="col-md-6 mb-4 pb-2">
+  
+                        <div class="form-outline">
+                            <label class="form-label" for="form3Examplev2">D.N.I</label>
+                          <input type="text" id="form3Examplev2" class="form-control form-control-lg" placeholder="Ej: 12345678L" />
+                          
+                        </div>
+  
+                      </div>
+                      
+                    </div>
+  
+                   
+  
+                    <div class="mb-4 pb-2">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Examplev4">Cuenta bancaria</label>
+                        <input type="text" id="form3Examplev4" class="form-control form-control-lg" placeholder="Ej: ES21 1465 0100 72 2030876293" />
+                        
+                      </div>
+                    </div>
+  
+                    <div class="row">
+                      
+                      
+                    </div>
+  
+                  </div>
+                </div>
+                <div class="col-lg-6 bg-indigo text-white">
+                  <div class="p-5">
+                    <h3 class="fw-normal mb-5">Datos personales</h3>
+  
+                    <div class="mb-4 pb-2">
+                      <div class="form-outline form-white">
+                        <label class="form-label" for="form3Examplea2">Nombre</label>
+                        <input  type="text" id="form3Examplea2" class="form-control form-control-lg" placeholder="Nombre"/>
+                        
+                      </div>
+                    </div>
+  
+                    <div class="mb-4 pb-2">
+                      <div class="form-outline form-white">
+                        <label class="form-label" for="form3Examplea3">Apellidos</label>
+                        <input type="text" id="form3Examplea3" class="form-control form-control-lg" placeholder="Apellidos"/>
+                        
+                      </div>
+                    </div>
+  
+                    <div class="row">
+                      <div class="col-md-5 mb-4 pb-2">
+  
+                        <div class="form-outline form-white">
+                            <label class="form-label" for="form3Examplea4">Móvil</label>
+                          <input type="text" id="form3Examplea4" class="form-control form-control-lg" placeholder="Móvil"/>
+                          
+                        </div>
+  
+                      </div>
+                      <div class="col-md-7 mb-4 pb-2">
+  
+                        <div class="form-outline form-white">
+                            <label class="form-label" for="form3Examplea5">Ciudad</label>
+                          <input type="text" id="form3Examplea5" class="form-control form-control-lg" placeholder="Introduce la ciudad"/>
+                          
+                        </div>
+  
+                      </div>
+                    </div>
+  
+                    <div class="mb-4 pb-2">
+                      <div class="form-outline form-white">
+                        <label class="form-label" for="form3Examplea6">Dirección</label>
+                        <input type="text" id="form3Examplea6" class="form-control form-control-lg" placeholder="Introduce tu dirección"/>
+                        
+                      </div>
+                    </div>
+  
+                    <div class="row">
+                      <div class="col-md-5 mb-4 pb-2">
+  
+                        <div class="form-outline form-white">
+                            <label class="form-label" for="form3Examplea7">Código postal</label>
+                          <input type="text" id="form3Examplea7" class="form-control form-control-lg" placeholder="Código postal"/>
+                          
+                        </div>
+  
+                      </div>
+                      <div class="col-md-7 mb-4 pb-2">
+  
+                        <div class="form-outline form-white">
+                            <label class="form-label" for="form3Examplea8">Fecha de nacimiento</label>
+                          
+                          <input type="date" id="form3Examplea8" class="form-control form-control-lg" placeholder="education" value="">
+                        </div>
+
+  
+                      </div>
+                    </div>
+  
+                    <div class="mb-4">
+                      <div class="form-outline form-white">
+                        <label class="form-label" for="form3Examplea9">E-mail</label>
+                        <input type="text" id="form3Examplea9" class="form-control form-control-lg" placeholder="Introduce el e-mail"/>
+                        
+                      </div>
+                    </div>
+
+                    <div class="mb-4">
+                      <div class="form-outline form-white">
+                        <label class="form-label" for="form3Examplea9">Contraseña</label>
+                        <input type="text" id="form3Examplea9" class="form-control form-control-lg" placeholder="Introduce la contraseña"/>
+                        
+                      </div>
+                    </div>
+  
+                    <div class="form-check d-flex justify-content-start mb-4 pb-3">
+                      <input
+                        class="form-check-input me-3"
+                        type="checkbox"
+                        name="checkbox1"
+                        required
+                        onchange="this.setCustomValidity(validity.valueMissing ? 'Please indicate that you accept the Terms and Conditions' : '');"
+                        value=""
+                        id="form2Example3c"
+                        (click)="checkDetection()"
+                        
+                      />
+                      
+                        <label class="form-check-label text-white" for="form2Example3">
+                        Acepto los <a href="#!" class="text-white"><u>Términos y condiciones</u></a> de la web.
+                      </label>
+                    </div>
+  
+                    <button id="btRegister" type="button" (click)="register()" class="btn btn-primary btn-lg" data-mdb-ripple-color="dark">Registrarme</button>
+  
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+
+    document.getElementById("form2Example3c").setCustomValidity("Please indicate that you accept the Terms and Conditions");
+  
+  </script>
+

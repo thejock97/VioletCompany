@@ -1,0 +1,44 @@
+<div class="container rounded bg-white mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-3 border-right">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"><span class="font-weight-bold">{{ nombreUsuario }}</span><span class="text-black-50">{{ nombreUsuario }}</span><span> </span></div>
+        </div>
+        <div class="col-md-5 border-right">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">¡Hola {{ nombreUsuario }}!</h4>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6"><label class="labels">Nombre</label><input type="text" class="form-control" placeholder="Nombre" value=""></div>
+                    <div class="col-md-6"><label class="labels">Apellidos</label><input type="text" class="form-control" value="" placeholder="Apellidos"></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12"><label class="labels">Móvil</label><input type="text" class="form-control" placeholder="Introduce el móvil" value=""></div>
+                    <div class="col-md-12"><label class="labels">Dirección 1</label><input type="text" class="form-control" placeholder="Introduce tu dirección" value=""></div>
+                    <div class="col-md-12"><label class="labels">Dirección 2</label><input type="text" class="form-control" placeholder="Introduce otra dirección" value=""></div>
+                    <div class="col-md-12"><label class="labels">Código postal</label><input type="text" class="form-control" placeholder="Introduce el código postal" value=""></div>
+                    <div class="col-md-12"><label class="labels">Comunidad</label><input type="text" class="form-control" placeholder="Introduce la comunidad" value=""></div>
+                    <div class="col-md-12"><label class="labels">Ciudad</label><input type="text" class="form-control" placeholder="Introduce la ciudad" value=""></div>
+                    <div class="col-md-12"><label class="labels">Email</label><input type="text" class="form-control" placeholder="Introduce el e-mail" value="{{ nombreUsuario }}"></div>
+
+                    <div class="col-md-12"><label class="labels">Fecha de nacimiento</label><input type="date" class="form-control" placeholder="education" value=""></div>
+
+
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6"><label class="labels">Pais</label><input type="text" class="form-control" placeholder="Pais" value=""></div>
+                    <div class="col-md-6"><label class="labels">Provincia</label><input type="text" class="form-control" value="" placeholder="Provincia"></div>
+                </div>
+                <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Guardar</button></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center experience"><span>Datos confidenciales</span></div><br>
+                <div class="col-md-12"><label class="labels">D.N.I</label><input type="text" class="form-control" placeholder="Ej: 12345678L" value=""></div> <br>
+                <div class="col-md-12"><label class="labels">Cuenta bancaria</label><input type="text" class="form-control" placeholder="Ej: ES21 1465 0100 72 2030876293" value=""></div>
+            </div>
+        </div>
+    </div>
+</div>
+

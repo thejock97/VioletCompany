@@ -1,0 +1,31 @@
+<div id="fondo">
+<div id="contenedor" class="login">
+    <h1>Iniciar sesión</h1>
+    <form (ngSubmit)="submit()" #usuarioForm="ngForm">
+        <div class="form-group">
+            <label for="usuario">E-mail:</label>
+            <!-- <p><input type="text" [(ngModel)]="usuario.nombre" name="nombre" #nombre="ngModel" required
+                    placeholder="E-mail"></p> -->
+                    <p><input id="a" type="text" [(ngModel)]="usuario.nombre" name="nombre" #nombre="ngModel" required
+                        placeholder="E-mail" email="true"></p>
+                        
+            <div *ngIf="nombre.invalid && nombre.dirty" class="alert">
+                <div *ngIf="nombre.errors?.['required']">Campo requerido</div>
+            </div>
+        </div>
+
+        <div class="form-group" id="marginTop">
+            <label for="contrasegna">Contraseña: </label>
+            <p><input type="password" [(ngModel)]="usuario.contrasegna" name="contrasegna" #contrasegna="ngModel"
+                    required minlength="4" placeholder="Contraseña"></p>
+            <div *ngIf="contrasegna.invalid && contrasegna.dirty" class="alert">
+                <div *ngIf="contrasegna.errors?.['required']">Campo requerido </div>
+                <div *ngIf="contrasegna.errors?.['minlength']">Mínimo 4 caracteres </div>
+            </div>
+        </div>
+
+        <button type="submit" [disabled]="!usuarioForm.form.valid" id="marginTop">Login</button>
+
+    </form>
+</div>
+</div>
