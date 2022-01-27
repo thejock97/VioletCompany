@@ -1,6 +1,6 @@
 <div class="navbarColor">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand transition" routerLink="/listado">
+    <a class="navbar-brand transition" routerLink="VioletCompany/listado">
       Servicios
     </a>
 
@@ -12,27 +12,27 @@
     <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item transition">
-          <a class="nav-link text-light" routerLink="/nosotros">Sobre nosotros</a>
+          <a class="nav-link text-light" routerLink="VioletCompany/nosotros">Sobre nosotros</a>
         </li>
 
         <!-- ------------------- -->
 
         <li class="nav-item acceso transition" id="acceso" *ngIf="miToken != 0">
-          <a class="nav-link text-light" routerLink="/miArea"><strong>Usuario:</strong> {{ nombreUsuario }} </a>
+          <a class="nav-link text-light" routerLink="VioletCompany/miArea"><strong>Usuario:</strong> {{ nombreUsuario }} </a>
         </li>
 
         <li class="nav-item acceso transition" id="acceso" *ngIf="miToken == 0">
-          <a class="nav-link text-light" routerLink="/login">Acceso</a>
+          <a class="nav-link text-light" routerLink="VioletCompany/login">Acceso</a>
         </li>
 
         <li class="nav-item acceso transition" id="acceso" *ngIf="miToken == 0">
-          <a class="nav-link text-light" routerLink="/registro">Regístrate</a>
+          <a class="nav-link text-light" routerLink="VioletCompany//registro">Regístrate</a>
         </li>
 
 
 
         <li class="nav-item acceso transition" id="acceso" *ngIf="miToken != 0" (click)="logout()">
-          <strong><a class="nav-link text-light" routerLink="/listado">Cerrar Sesión</a></strong>
+          <strong><a class="nav-link text-light" routerLink="VioletCompany/listado">Cerrar Sesión</a></strong>
         </li>
 
       </ul>
