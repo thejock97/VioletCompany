@@ -16,10 +16,9 @@ const routes: Routes = [
 { path: 'miArea', component: AreaUsuarioComponent},
 { path: 'registro', component: RegisterComponent},
 { path: 'login', component: LoginComponent},
-{ path: '',redirectTo:'/',pathMatch:'full'},
+
+{ path: '',redirectTo:'/listado', pathMatch:'full'},
 { path: '**',component: PaginaNoEncontradaComponent}
-
-
 ];
 
 
