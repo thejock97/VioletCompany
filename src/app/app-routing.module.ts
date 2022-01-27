@@ -17,7 +17,7 @@ const routes: Routes = [
 { path: 'registro', component: RegisterComponent},
 { path: 'login', component: LoginComponent},
 
-{ path: '',redirectTo:'/', pathMatch:'full'},
+{ path: '',redirectTo:'/listado', pathMatch:'full'},
 { path: '**',component: PaginaNoEncontradaComponent}
 ];
 
